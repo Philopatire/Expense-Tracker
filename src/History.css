@@ -1,0 +1,25 @@
+.History {
+  margin-bottom: 35px;
+}
+.History .transaction-value {
+  display: flex;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 3px 0 #aaa;
+  border-radius: 3px;
+}
+.History .transaction-value .body {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px;
+  position: relative;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.History .transaction-value .body:hover {
+  background-color: #e91e630a;
+}
+.History .transaction-value .status {
+  width: 5px;
+}

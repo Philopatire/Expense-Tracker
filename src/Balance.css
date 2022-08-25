@@ -1,0 +1,30 @@
+.Balance {
+  margin-bottom: 35px;
+}
+.Balance .title {
+  margin-bottom: 25px;
+}
+.Balance .title .value {
+  font-size: 35px;
+  font-weight: 500;
+}
+.Balance .display {
+  background-color: #ddd;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  border: 18px solid #fff;
+  box-shadow: 1px 1px 3px 0 #aaa;
+}
+.Balance .display .column {
+  background-color: #fff;
+  text-align: center;
+}
+.Balance .display .column .title {
+  display: block;
+  margin: 8px;
+  font-weight: 600;
+}
+.Balance .display .column .value {
+  font-size: 20px;
+}

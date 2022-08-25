@@ -1,0 +1,35 @@
+.Transaction .input-field {
+  margin-bottom: 8px;
+}
+.Transaction .input-field .sub-title {
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.Transaction .input-field .input {
+  margin-bottom: 8px;
+  box-shadow: 0px 0px 2px 0 #ddd inset;
+  border: 1px solid #ddd;
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 15px;
+  transition: 0.3s;
+}
+.Transaction .input-field .input:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px 0 #ddd inset;
+}
+.Transaction .submit-btn {
+  background-color: #9c88ff;
+  border: none;
+  border-radius: 3px;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.Transaction .submit-btn:hover {
+  background-color: #8271d4;
+}
